@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Assets\KidsK-ify.ico</ApplicationIcon>
+    <AssemblyName>KidsK-ify</AssemblyName>
+    <RootNamespace>KidsK_ify</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Assets\appicon.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\KidsK-ify.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
