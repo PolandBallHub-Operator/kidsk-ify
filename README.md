@@ -43,4 +43,3 @@ Visual Studio 2022では`KidsK-ify.sln`を開いてビルドできます。
 - Androidの`screencap`が動作する端末を前提とします。
 - 初回解像度取得後に端末の表示サイズを変更した場合は、いったん再接続してください。
 - `adb shell input text`はAndroidのIME実装により対応文字が異なります。日本語が入力できない場合は端末側IMEの制約をご確認ください。
-- この環境ではWindows向け.NETビルドは実行していません。Windowsの.NET 8 SDKでビルドしてください。
